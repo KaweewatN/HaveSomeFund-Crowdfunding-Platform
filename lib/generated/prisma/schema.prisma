@@ -1,0 +1,137 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Campaign {
+  id                String             @id @default(cuid())
+  title             String
+  description       String
+  shortDescription  String
+  image             String
+  category          String
+  tags              String[]
+  creatorId         String
+  creatorName       String
+  creatorImage      String?
+  creatorBio        String?
+  amountRaised      Int
+  goalAmount        Int
+  donorsCount       Int
+  startDate         DateTime           @db.Date
+  endDate           DateTime           @db.Date
+  location          String
+  status            CampaignStatus     @default(active)
+  featured          Boolean            @default(false)
+  verified          Boolean            @default(false)
+  faqs              FAQ[]
+  updates           Update[]
+  donorComments     DonorComment[]
+  donorTransactions DonorTransaction[]
+  creator           User?              @relation(fields: [creatorId], references: [id])
+
+  @@index([creatorId])
+}
+
+enum CampaignStatus {
+  active
+  completed
+  cancelled
+}
+
+model FAQ {
+  id         String   @id @default(cuid())
+  question   String
+  answer     String
+  campaign   Campaign @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  campaignId String
+
+  @@index([campaignId])
+}
+
+model Update {
+  id           String   @id @default(cuid())
+  title        String
+  content      String
+  date         DateTime @db.Date
+  creatorName  String
+  creatorImage String?
+  campaign     Campaign @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  campaignId   String
+
+  @@index([campaignId])
+}
+
+model DonorComment {
+  id          String   @id @default(cuid())
+  isAnonymous Boolean?
+  content     String?
+  userName    String
+  userImage   String?
+  date        DateTime @db.Date
+  campaign    Campaign @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  campaignId  String
+  user        User?    @relation(fields: [userId], references: [id])
+  userId      String?
+
+  @@index([campaignId])
+  @@index([userId])
+}
+
+model DonorTransaction {
+  id            String   @id @default(cuid())
+  amount        Int
+  date          DateTime @db.Date
+  paymentMethod String
+  isAnonymous   Boolean  @default(false)
+  message       String?
+  donorName     String?
+  campaign      Campaign @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  campaignId    String
+  user          User?    @relation(fields: [userId], references: [id])
+  userId        String?
+
+  @@index([campaignId])
+  @@index([userId])
+}
+
+model User {
+  id                String             @id @default(cuid())
+  name              String
+  email             String             @unique
+  phone             String             @unique
+  image             String?
+  bio               String?
+  password          String?
+  role              UserRole           @default(donor)
+  status            UserStatus         @default(active)
+  createdCampaigns  Campaign[]
+  donorComments     DonorComment[]
+  donorTransactions DonorTransaction[]
+
+  @@index([id])
+}
+
+enum UserRole {
+  creator
+  donor
+  admin
+  superAdmin
+}
+
+enum UserStatus {
+  active
+  inactive
+  banned
+}
