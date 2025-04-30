@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "docker compose down && docker compose up -d && next start",
     "lint": "next lint",
-    "set-up": "npm install && docker compose down && docker-compose up -d && npx prisma generate && npm run start",
+    "initialize": "npm install && docker compose down && docker compose build && docker compose up -d && npx prisma generate && npm run dev",
     "studio": "npx prisma studio"
   },
   "dependencies": {
