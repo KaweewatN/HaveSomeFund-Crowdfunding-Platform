@@ -1,4 +1,4 @@
-# HaveSomeFund Prototype
+# 💸 HaveSomeFund Prototype
 
 This prototype demonstrates the HaveSomeFund application.
 
