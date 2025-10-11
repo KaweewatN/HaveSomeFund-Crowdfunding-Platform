@@ -86,10 +86,10 @@ export default function CampaignQuickView() {
               <div className="mt-4 space-y-2">
                 <div className="flex items-center justify-between text-sm">
                   <span className="font-medium">
-                    ${campaign.raised.toLocaleString()} raised
+                    THB {campaign.raised.toLocaleString()} raised
                   </span>
                   <span className="text-muted-foreground">
-                    ${campaign.goal.toLocaleString()} goal
+                    THB {campaign.goal.toLocaleString()} goal
                   </span>
                 </div>
                 <Progress

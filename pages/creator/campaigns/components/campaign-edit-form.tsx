@@ -69,7 +69,7 @@ const formSchema = z.object({
     .min(5, "Title must be at least 5 characters")
     .max(100, "Title must be less than 100 characters"),
   category: z.string().min(1, "Please select a category"),
-  goal: z.coerce.number().min(100, "Goal must be at least $100"),
+  goal: z.coerce.number().min(100, "Goal must be at least THB 100"),
   endDate: z
     .date()
     .refine((date) => date > new Date(), "End date must be in the future"),
@@ -209,7 +209,7 @@ export default function CampaignEditForm({
                   name="goal"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Fundraising Goal ($)</FormLabel>
+                      <FormLabel>Fundraising Goal (THB)</FormLabel>
                       <FormControl>
                         <Input
                           type="number"

@@ -94,10 +94,10 @@ export default function CampaignHeader({ campaignId }: CampaignHeaderProps) {
           <div className="mt-6 space-y-2">
             <div className="flex items-center justify-between text-sm">
               <span className="font-medium">
-                ${campaign.raised.toLocaleString()} raised
+                THB {campaign.raised.toLocaleString()} raised
               </span>
               <span className="text-muted-foreground">
-                ${campaign.goal.toLocaleString()} goal
+                THB {campaign.goal.toLocaleString()} goal
               </span>
             </div>
             <Progress

@@ -166,10 +166,10 @@ export default function CampaignList({
                   <div className="space-y-2">
                     <div className="flex items-center justify-between text-sm">
                       <span className="font-medium">
-                        ${campaign.amountRaised.toLocaleString()} raised
+                        THB {campaign.amountRaised.toLocaleString()} raised
                       </span>
                       <span className="text-muted-foreground">
-                        ${campaign.goalAmount.toLocaleString()} goal
+                        THB {campaign.goalAmount.toLocaleString()} goal
                       </span>
                     </div>
                     <Progress

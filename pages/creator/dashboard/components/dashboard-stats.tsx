@@ -19,7 +19,7 @@ export default function DashboardStats({
         </CardHeader>
         <CardContent>
           <div className="text-2xl font-bold">
-            $
+            THB{" "}
             {summary?.totalAmountRaised
               ? Number(summary?.totalAmountRaised).toLocaleString()
               : 0}

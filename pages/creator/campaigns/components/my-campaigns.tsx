@@ -233,11 +233,11 @@ export default function MyCampaignsContainer({
                     <div className="space-y-2">
                       <div className="flex items-center justify-between text-sm">
                         <span className="font-medium">
-                          ${Number(campaign.raised || 0).toLocaleString()}{" "}
+                          THB {Number(campaign.raised || 0).toLocaleString()}{" "}
                           raised
                         </span>
                         <span className="text-muted-foreground">
-                          ${Number(campaign.goal || 0).toLocaleString()} goal
+                          THB {Number(campaign.goal || 0).toLocaleString()} goal
                         </span>
                       </div>
                       <Progress

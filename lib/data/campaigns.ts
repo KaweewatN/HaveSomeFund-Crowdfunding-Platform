@@ -23,12 +23,12 @@ export const campaigns: Campaign[] = [
       <h3>How Your Donation Helps</h3>
       <p>Your contribution will go directly toward:</p>
       <ul>
-        <li>$5,000 - Soil, compost, and mulch</li>
-        <li>$3,000 - Lumber for raised beds</li>
-        <li>$2,000 - Seeds and starter plants</li>
-        <li>$2,500 - Tools and equipment</li>
-        <li>$1,500 - Water irrigation system</li>
-        <li>$1,000 - Playground equipment</li>
+        <li>THB 5,000 - Soil, compost, and mulch</li>
+        <li>THB 3,000 - Lumber for raised beds</li>
+        <li>THB 2,000 - Seeds and starter plants</li>
+        <li>THB 2,500 - Tools and equipment</li>
+        <li>THB 1,500 - Water irrigation system</li>
+        <li>THB 1,000 - Playground equipment</li>
       </ul>
       
       <h3>Community Impact</h3>
@@ -83,12 +83,12 @@ export const campaigns: Campaign[] = [
       
       <h3>Budget Breakdown</h3>
       <ul>
-        <li>$8,000 - Camera equipment rental and production gear</li>
-        <li>$5,000 - Crew compensation (director, cinematographer, sound engineer)</li>
-        <li>$3,000 - Post-production (editing, color grading, sound design)</li>
-        <li>$2,000 - Music licensing and original score</li>
-        <li>$1,000 - Festival submission fees</li>
-        <li>$1,000 - Marketing and distribution</li>
+        <li>THB 8,000 - Camera equipment rental and production gear</li>
+        <li>THB 5,000 - Crew compensation (director, cinematographer, sound engineer)</li>
+        <li>THB 3,000 - Post-production (editing, color grading, sound design)</li>
+        <li>THB 2,000 - Music licensing and original score</li>
+        <li>THB 1,000 - Festival submission fees</li>
+        <li>THB 1,000 - Marketing and distribution</li>
       </ul>
       
       <h3>Our Team</h3>
@@ -146,11 +146,11 @@ export const campaigns: Campaign[] = [
       <h3>Financial Impact</h3>
       <p>While the Johnsons have health insurance, they're facing significant out-of-pocket expenses:</p>
       <ul>
-        <li>$15,000 - Insurance deductibles and co-pays</li>
-        <li>$10,000 - Specialized treatments not covered by insurance</li>
-        <li>$8,000 - Travel and accommodation expenses for treatment</li>
-        <li>$12,000 - Lost income while caring for Emma</li>
-        <li>$5,000 - Home modifications and special equipment needed during recovery</li>
+        <li>THB 15,000 - Insurance deductibles and co-pays</li>
+        <li>THB 10,000 - Specialized treatments not covered by insurance</li>
+        <li>THB 8,000 - Travel and accommodation expenses for treatment</li>
+        <li>THB 12,000 - Lost income while caring for Emma</li>
+        <li>THB 5,000 - Home modifications and special equipment needed during recovery</li>
       </ul>
       
       <h3>How You Can Help</h3>
@@ -212,12 +212,12 @@ export const campaigns: Campaign[] = [
       
       <h3>Budget Breakdown</h3>
       <ul>
-        <li>$30,000 - Well drilling and pump installation (5 wells)</li>
-        <li>$15,000 - Solar power systems</li>
-        <li>$10,000 - Water storage and distribution infrastructure</li>
-        <li>$8,000 - Water quality testing equipment and supplies</li>
-        <li>$7,000 - Training programs for local technicians</li>
-        <li>$5,000 - Community education materials and workshops</li>
+        <li>THB 30,000 - Well drilling and pump installation (5 wells)</li>
+        <li>THB 15,000 - Solar power systems</li>
+        <li>THB 10,000 - Water storage and distribution infrastructure</li>
+        <li>THB 8,000 - Water quality testing equipment and supplies</li>
+        <li>THB 7,000 - Training programs for local technicians</li>
+        <li>THB 5,000 - Community education materials and workshops</li>
       </ul>
       
       <h3>Our Experience</h3>
@@ -289,12 +289,12 @@ export const campaigns: Campaign[] = [
       
       <h3>Budget</h3>
       <ul>
-        <li>$10,000 - STEM equipment and supplies (robotics kits, coding tools, science materials)</li>
-        <li>$8,000 - Instructor and mentor stipends</li>
-        <li>$5,000 - Field trip and transportation costs</li>
-        <li>$4,000 - Summer camp expenses</li>
-        <li>$2,000 - Curriculum development and educational materials</li>
-        <li>$1,000 - Program evaluation and assessment</li>
+        <li>THB 10,000 - STEM equipment and supplies (robotics kits, coding tools, science materials)</li>
+        <li>THB 8,000 - Instructor and mentor stipends</li>
+        <li>THB 5,000 - Field trip and transportation costs</li>
+        <li>THB 4,000 - Summer camp expenses</li>
+        <li>THB 2,000 - Curriculum development and educational materials</li>
+        <li>THB 1,000 - Program evaluation and assessment</li>
       </ul>
       
       <h3>About Us</h3>
@@ -369,12 +369,12 @@ export const campaigns: Campaign[] = [
       
       <h3>Budget Breakdown</h3>
       <ul>
-        <li>$8,000 - New kennels and animal enclosures</li>
-        <li>$6,000 - HVAC system upgrade</li>
-        <li>$4,000 - Plumbing and electrical repairs</li>
-        <li>$3,000 - Medical room equipment and supplies</li>
-        <li>$2,500 - Construction of meet and greet rooms</li>
-        <li>$1,500 - Reception area renovation</li>
+        <li>THB 8,000 - New kennels and animal enclosures</li>
+        <li>THB 6,000 - HVAC system upgrade</li>
+        <li>THB 4,000 - Plumbing and electrical repairs</li>
+        <li>THB 3,000 - Medical room equipment and supplies</li>
+        <li>THB 2,500 - Construction of meet and greet rooms</li>
+        <li>THB 1,500 - Reception area renovation</li>
       </ul>
       
       <h3>About Our Shelter</h3>
@@ -440,15 +440,15 @@ export const campaigns: Campaign[] = [
       <h3>Funding Goals</h3>
       <p>Your investment will help us:</p>
       <ul>
-        <li>$40,000 - Purchase specialized manufacturing equipment</li>
-        <li>$25,000 - Complete final material certification and testing</li>
-        <li>$15,000 - Produce initial inventory for first customers</li>
-        <li>$10,000 - Develop marketing materials and attend industry trade shows</li>
-        <li>$10,000 - Secure additional intellectual property protection</li>
+        <li>THB 40,000 - Purchase specialized manufacturing equipment</li>
+        <li>THB 25,000 - Complete final material certification and testing</li>
+        <li>THB 15,000 - Produce initial inventory for first customers</li>
+        <li>THB 10,000 - Develop marketing materials and attend industry trade shows</li>
+        <li>THB 10,000 - Secure additional intellectual property protection</li>
       </ul>
       
       <h3>Market Opportunity</h3>
-      <p>The sustainable packaging market is projected to grow to $440 billion by 2025. With increasing consumer demand for eco-friendly products and new regulations restricting single-use plastics, GreenWrap is positioned to capture significant market share.</p>
+      <p>The sustainable packaging market is projected to grow to THB 440 billion by 2025. With increasing consumer demand for eco-friendly products and new regulations restricting single-use plastics, GreenWrap is positioned to capture significant market share.</p>
       
       <h3>Our Team</h3>
       <p>Our founding team includes materials scientists, packaging industry veterans, and sustainability experts with over 30 years of combined experience in developing and commercializing new materials.</p>
@@ -525,12 +525,12 @@ export const campaigns: Campaign[] = [
       
       <h3>Budget</h3>
       <ul>
-        <li>$15,000 - Artist fees ($3,000 per mural)</li>
-        <li>$8,000 - Materials (paint, primers, sealants, equipment)</li>
-        <li>$5,000 - Community engagement workshops and events</li>
-        <li>$3,000 - Documentation (photography, video, project book)</li>
-        <li>$2,500 - Site preparation and safety equipment</li>
-        <li>$1,500 - Administrative costs and permits</li>
+        <li>THB 15,000 - Artist fees (THB 3,000 per mural)</li>
+        <li>THB 8,000 - Materials (paint, primers, sealants, equipment)</li>
+        <li>THB 5,000 - Community engagement workshops and events</li>
+        <li>THB 3,000 - Documentation (photography, video, project book)</li>
+        <li>THB 2,500 - Site preparation and safety equipment</li>
+        <li>THB 1,500 - Administrative costs and permits</li>
       </ul>
       
       <h3>Timeline</h3>

@@ -93,7 +93,7 @@ export default function MyDonationPage() {
                 <TableRow key={donation?.id}>
                   <TableCell>{donation?.id}</TableCell>
                   <TableCell className="text-teal-600 font-medium">
-                    ฿{donation?.amount}
+                    THB {donation?.amount}
                   </TableCell>
                   <TableCell>
                     {new Date(donation?.date).toLocaleDateString()}

@@ -21,7 +21,7 @@ export default function HowItWorksFaq() {
             <p className="text-muted-foreground">
               Creating a campaign on HaveSomeFund is completely free. We charge
               a small platform fee of 5% on funds raised, plus payment
-              processing fees (typically 2.9% + $0.30 per transaction).
+              processing fees (typically 2.9% + THB 0.30 per transaction).
             </p>
           </CardContent>
         </Card>

@@ -17,7 +17,7 @@ export default function MyDonationStats({
         </CardHeader>
         <CardContent>
           <div className="text-2xl font-bold">
-            ฿
+            THB{" "}
             {totalAmountDonated
               ? Number(totalAmountDonated).toLocaleString()
               : 0}

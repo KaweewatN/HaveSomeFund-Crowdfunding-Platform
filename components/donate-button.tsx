@@ -169,7 +169,7 @@ export default function DonateButton({
                           }
                           onClick={() => field.onChange(presetAmount)}
                         >
-                          ฿{presetAmount}
+                          THB {presetAmount}
                         </Button>
                       ))}
                     </div>

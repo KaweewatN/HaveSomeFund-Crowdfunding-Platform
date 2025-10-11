@@ -21,7 +21,7 @@ export default function CampaignStats({
         </CardHeader>
         <CardContent>
           <div className="text-2xl font-bold">
-            ${amountRaised ? Number(amountRaised)?.toLocaleString() : 0}
+            THB {amountRaised ? Number(amountRaised)?.toLocaleString() : 0}
           </div>
           <p className="text-xs text-muted-foreground">+12% from last week</p>
         </CardContent>
@@ -47,12 +47,14 @@ export default function CampaignStats({
         </CardHeader>
         <CardContent>
           <div className="text-2xl font-bold">
-            ฿
+            THB{" "}
             {amountRaised && donorsCount
               ? Number(amountRaised / donorsCount)?.toLocaleString()
               : 0}
           </div>
-          <p className="text-xs text-muted-foreground">+$15 from last week</p>
+          <p className="text-xs text-muted-foreground">
+            +THB 15 from last week
+          </p>
         </CardContent>
       </Card>
       <Card>

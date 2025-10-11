@@ -152,7 +152,7 @@ export default function CampaignDonations({
                     </div>
                   </TableCell>
                   <TableCell className="font-medium text-teal-600">
-                    ฿{donation.amount}
+                    THB {donation.amount}
                   </TableCell>
                   <TableCell className="hidden md:table-cell">
                     {donation.date
